@@ -74,6 +74,7 @@ html {
       z-index: 2;
       cursor: pointer; }
     .header__toggler:checked ~ .nav > .nav__list {
+      position: fixed;
       -webkit-transform: translate(0, 0);
               transform: translate(0, 0); }
     .header__toggler:checked + .header__toggler-label {
